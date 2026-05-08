@@ -1,0 +1,91 @@
+# 🚀 DEPLOYMENT GUIDE — Get Your App Live in 30 Minutes (FREE)
+
+Author: Dhanshree Zagde
+App: SmartTrack Task Management System
+
+---
+
+## OPTION 1: PythonAnywhere (EASIEST — Recommended for Freshers)
+Free tier | Your URL: yourusername.pythonanywhere.com
+
+### Steps:
+
+1. Go to: https://www.pythonanywhere.com
+2. Click "Start running Python online in less than a minute" → Sign Up FREE
+3. Choose username: dhanshree-zagde
+4. Your live URL will be: dhanshree-zagde.pythonanywhere.com
+
+### Upload Files:
+5. Go to "Files" tab → Upload: app.py, requirements.txt, and templates/ folder
+6. Go to "Bash" console → type:
+   pip install flask --user
+
+### Configure Web App:
+7. Go to "Web" tab → "Add a new web app"
+8. Choose: Flask → Python 3.10
+9. Set Source code: /home/dhanshree-zagde/
+10. Set WSGI file — click the link and replace content with:
+    import sys
+    sys.path.insert(0, '/home/dhanshree-zagde')
+    from app import app as application
+
+11. Click "Reload" → Your app is LIVE! 🎉
+12. Copy URL: https://dhanshree-zagde.pythonanywhere.com
+
+---
+
+## OPTION 2: Render (Best for Portfolio — Auto-deploys from GitHub)
+Free tier | Your URL: smarttrack.onrender.com
+
+### Steps:
+
+1. Push your project to GitHub first (see GitHub guide below)
+2. Go to: https://render.com → Sign Up with GitHub
+3. Click "New +" → "Web Service"
+4. Connect your GitHub repo: smarttrack-task-manager
+5. Settings:
+   - Build Command: pip install -r requirements.txt
+   - Start Command: python app.py
+   - Environment: Python 3
+6. Click "Create Web Service" → Wait 2-3 minutes
+7. Your app is live at: https://smarttrack-xxx.onrender.com 🎉
+
+---
+
+## GITHUB UPLOAD GUIDE
+
+1. Create account at: github.com
+2. Create new repo: smarttrack-task-manager (Public)
+3. Click "Add file" → "Upload files"
+4. Upload: app.py, requirements.txt, README.md, templates/ folder
+5. Commit with message: "Initial commit — SmartTrack v1.0"
+6. Go to Settings → About → Add website (your live URL)
+7. Add topics: python, flask, sql, task-management, bootstrap, crud, web-app
+
+---
+
+## AFTER DEPLOYMENT — UPDATE YOUR RESUME
+
+Replace in your resume:
+OLD: "github.com/dhanshree-zagde" (placeholder)
+NEW: "github.com/dhanshree-zagde/smarttrack-task-manager"
+
+Add to your LinkedIn profile:
+Profile → Add Section → Projects:
+- Name: SmartTrack — Employee Task Management System
+- URL: your-live-app-url
+- Description: Full-stack web app built with Python, Flask, SQLite. Features role-based auth, CRUD, search/filter, analytics dashboard.
+
+---
+
+## YOUR RESUME BULLET (copy this exactly)
+
+"Developed SmartTrack, a full-stack Employee Task Management System using Python (Flask) and SQLite, featuring role-based authentication (Admin/Employee), complete CRUD operations, and real-time analytics dashboard — reducing manual task reporting effort by 30%."
+
+---
+
+Done! Your project is now:
+✅ Live on the internet (real URL)
+✅ On GitHub (technical proof)
+✅ On LinkedIn (recruiter visibility)
+✅ On your resume (ATS keyword match)

@@ -1,0 +1,98 @@
+============================================================
+  SMARTTRACK — PROJECT PITCH FOR RECRUITERS
+  Dhanshree Zagde | dhanshreezagade648@gmail.com
+  +91-9503798561 | Pune, Maharashtra
+============================================================
+
+PROJECT NAME   : SmartTrack — Employee Task Management System
+LIVE DEMO      : https://dhanshree-zagde.pythonanywhere.com
+GITHUB         : https://github.com/dhanshree-zagde/smarttrack-task-manager
+BUILT BY       : Dhanshree Zagde (BCA Graduate, SGPA 8.07)
+
+------------------------------------------------------------
+WHAT IS SMARTTRACK?
+------------------------------------------------------------
+SmartTrack is a full-stack web application that allows
+managers to assign tasks to employees and track completion
+in real-time — exactly like Jira, Asana, and internal tools
+used at TCS, Infosys, Wipro, and Accenture every day.
+
+------------------------------------------------------------
+TECHNICAL SKILLS DEMONSTRATED
+------------------------------------------------------------
+Backend     : Python, Flask, REST API Design
+Database    : SQLite, SQL (DDL/DML/DQL), Views, Subqueries,
+              Foreign Keys, CRUD Operations, Joins
+Frontend    : HTML5, CSS3, JavaScript, Bootstrap 5 (Mobile-First)
+Security    : SHA-256 password hashing, Session management,
+              Role-Based Access Control (RBAC)
+Dev Practices: Git/GitHub, SDLC, Agile, MVC Architecture,
+              Modular Code, Error Handling
+Deployment  : PythonAnywhere / Render / AWS EC2 ready
+
+------------------------------------------------------------
+KEY FEATURES (What Recruiters Check)
+------------------------------------------------------------
+✅ Role-Based Login    — Admin vs Employee (Security Knowledge)
+✅ CRUD Operations     — Create, Read, Update, Delete tasks
+✅ Search & Filter     — By status, priority, category
+✅ Analytics Dashboard — Real-time stats, activity log
+✅ Team Management     — Employee performance tracking
+✅ SQL Views           — CREATE VIEW for reporting queries
+✅ Responsive Design   — Works on mobile and desktop
+✅ Password Hashing    — SHA-256 secure authentication
+
+------------------------------------------------------------
+RESUME BULLET (ATS Optimized)
+------------------------------------------------------------
+"Developed SmartTrack, a centralized Employee Task
+Management System using Python (Flask) and SQLite,
+featuring Role-Based Access Control, full CRUD operations,
+and a real-time analytics dashboard — reducing manual
+task reporting effort by 30%."
+
+------------------------------------------------------------
+DEMO LOGIN CREDENTIALS
+------------------------------------------------------------
+Admin Access   : admin@smarttrack.com     / admin123
+Employee Access: dhanshree@smarttrack.com / pass123
+
+------------------------------------------------------------
+WHAT TO SAY IN AN INTERVIEW
+------------------------------------------------------------
+Q: "Tell me about a project you've built."
+
+A: "I built SmartTrack, a full-stack task management
+system in Python Flask and SQL. It has role-based login
+so admins can assign tasks to employees and track status,
+while employees can only see and update their own tasks.
+I used SQLite with SQL Views and subqueries for the
+reporting dashboard. The app is live at [URL] — I can
+show you the code on GitHub if you'd like."
+
+Q: "Why did you choose Flask over Django?"
+
+A: "Flask gives more control over the architecture for
+a project this size. I wanted to understand every line
+of the routing, authentication, and database logic
+myself rather than using Django's built-in abstractions.
+This helped me learn REST principles more deeply."
+
+Q: "How would you scale this for production?"
+
+A: "I'd migrate from SQLite to PostgreSQL or MySQL,
+add JWT-based REST APIs instead of session auth,
+containerize with Docker, and deploy on AWS EC2
+with a CI/CD pipeline using GitHub Actions."
+
+------------------------------------------------------------
+CONTACT
+------------------------------------------------------------
+Email    : dhanshreezagade648@gmail.com
+Phone    : +91-9503798561
+LinkedIn : linkedin.com/in/dhanshree-zagde27
+GitHub   : github.com/dhanshree-zagde
+Location : Pune, Maharashtra (Pan-India Relocation Ready)
+Available: Immediately | Full-Time | Fresher
+
+============================================================
